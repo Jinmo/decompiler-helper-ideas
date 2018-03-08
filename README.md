@@ -9,3 +9,4 @@ Just for logging some ideas for a decompiler addon
 6. arbitrary assembler -> microcode / retdec IR(I remember it has LLVM -> their IR pass) converter -> since microcode is opened, I guess decompilers for many architectures can be supported. Maybe there can be some hacks for some architecture, but decompiler itself is invaluable since viewing C and understanding heuristics is better than viewing assembly alone.
 7. retdec variable name renamer? since retdec is open sourced, can we get some AST for it and save/sync some info with IDA(ex. stack variables, register assignment, ...)
 8. drawing xref map to get some path information
+9. C code patcher! (binary code patching itself does require lot of heuristics / architecture dependent things, it can be separated as another subject) would be great if I can write some code in C and apply to it. Will it require some deep-learning for generating correct code?! (nope)
