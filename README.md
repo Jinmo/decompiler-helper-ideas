@@ -11,3 +11,4 @@ Just for logging some ideas for a decompiler addon
 8. drawing xref map to get some path information
 9. C code patcher! (binary code patching itself does require lot of heuristics / architecture dependent things, it can be separated as another subject) would be great if I can write some code in C and apply to it. Will it require some deep-learning for generating correct code?! (nope)
 10. It's not a plugin idea, but docs for decompiler internals will be great... Like, angr/S2E docs are improving. They're great.
+11. For some functions/patterns, make variable unitialized so the user can determine if the variable is not valid anymore.
